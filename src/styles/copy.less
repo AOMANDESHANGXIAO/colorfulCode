@@ -1,0 +1,48 @@
+@theme-color:#ba2f7b;
+// 文本相关
+@font-color:#282c34;
+@font-size-small:12px;
+@font-size-normal:14px;
+@font-size-big:24px;
+
+.code-enhance {
+  display: flex;
+  flex-direction: column;
+  border-radius: 7px;
+  overflow: hidden;
+  margin-top: 10px;
+
+  &-header {
+    background-color: lighten(@theme-color, 10%);
+    height: 32px;
+    box-sizing: border-box;
+    padding: 0 16px;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+  }
+
+  &-content {
+    background-color:#0d1117;
+    padding: 1em;
+
+    pre {
+      margin: 0;
+    }
+
+    code {
+      padding: 0 !important;
+    }
+  }
+
+  &-copy {
+    font-size: 12px;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 6px;
+    line-height: 1.5;
+  }
+}

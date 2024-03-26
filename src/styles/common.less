@@ -1,0 +1,46 @@
+// 存放公共的样式和属性变量
+// 主题颜色
+// @theme-color:#ba2f7b;
+@theme-color: #00a98f;
+
+// 文本相关
+@font-color: #282c34;
+@font-size-small: 12px;
+@font-size-normal: 14px;
+@font-size-big: 24px;
+@font-face {
+  font-family: "FiraCode";
+  src: url(@/assets/font/FiraCode-Regular.ttf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+// 阻止svg被点击时出现黑框问题
+svg:active, svg:focus {
+  outline: none;
+}
+
+/* 定义滚动条的宽度 */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* 定义滚动条轨道的样式 */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* 定义滚动条的样式 */
+::-webkit-scrollbar-thumb {
+  background: @theme-color;
+}
+
+/* 定义滚动条在悬停状态下的样式 */
+// ::-webkit-scrollbar-thumb:hover {
+//   background: @theme-color;
+//   opacity: 0.8;
+// }

@@ -1,0 +1,36 @@
+.code-enhance {
+  display: flex;
+  flex-direction: column;
+  border-radius: 7px;
+  overflow: hidden;
+  margin-top: 10px;
+}
+.code-enhance-header {
+  background-color: #00a98f;
+  height: 32px;
+  box-sizing: border-box;
+  padding: 0 16px;
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+.code-enhance-content {
+  background-color: #0d1117;
+  padding: 1em;
+}
+.code-enhance-content pre {
+  margin: 0;
+}
+.code-enhance-content code {
+  padding: 0 !important;
+}
+.code-enhance-copy {
+  font-size: 12px;
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  gap: 6px;
+  line-height: 1.5;
+}

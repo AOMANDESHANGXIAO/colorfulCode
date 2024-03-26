@@ -1,0 +1,56 @@
+<template>
+  <svg
+    :width="size"
+    :height="size"
+    viewBox="0 0 48 48"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect
+      x="9"
+      y="18"
+      width="30"
+      height="24"
+      rx="2"
+      fill="none"
+      stroke="#ffffff"
+      stroke-width="2"
+    />
+    <circle cx="17" cy="26" r="2" fill="#ffffff" />
+    <circle cx="31" cy="26" r="2" fill="#ffffff" />
+    <path
+      d="M20 32C18.8954 32 18 32.8954 18 34C18 35.1046 18.8954 36 20 36V32ZM28 36C29.1046 36 30 35.1046 30 34C30 32.8954 29.1046 32 28 32V36ZM20 36H28V32H20V36Z"
+      fill="#ffffff"
+    />
+    <path
+      d="M24 10V18"
+      stroke="#ffffff"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M4 26V34"
+      stroke="#ffffff"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M44 26V34"
+      stroke="#ffffff"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <circle cx="24" cy="8" r="2" stroke="#ffffff" stroke-width="2" />
+  </svg>
+</template>
+
+<script>
+export default {
+  props:{
+    size: String
+  }
+}
+</script>
